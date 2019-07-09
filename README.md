@@ -9,9 +9,9 @@ Les résultats obtenus indiquent l'importance des différents facteurs sociaux a
 
 Des recherches ultérieures pourraient approfondir l'effet de voisinage en se focalisant uniquement sur un quartier. Elles pourraient également s'attarder sur l'abstention, lors des dernières élections, qui semble gommer les caractéristiques sociales et devenir plus politisée. Enfin la gentrification étant fortement liée aux territoires de classes intermédiaires, une recherche de type socio-géographique combinée à de la géographie urbaine permettrait de mettre en avant les processus qui apparaissent avec la modification sociale des quartiers.
 
-
+&nbsp;
 <p align="center">
-	    <h1 align="center">**« People who talk together vote together »**</h1>
+	    <h1 align="center">« People who talk together vote together »</h1>
 	    <br><br><br>
 	</p>
 
