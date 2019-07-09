@@ -386,14 +386,8 @@ Ces géographies similaires entre Jean-Luc Mélenchon et les petits candidats am
 
 En analysant l'abstention de ce second tour, nous remarquons qu'elle convers la même géographie à l'exception du Nord des beaux quartiers qui gagne près de 10%. En comparaison avec le 1er tour, l'abstention connaît un gain de plus de 2% et ce dans pratiquement tous les quartiers de Paris.
 
-\begin{landscape}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.62]{Cartes/petits.jpeg}
-    \caption{Résultats pour les petits candidats lors du 1er tour.}
-    \label{C1PC}
-\end{figure}
-\end{landscape}
+![](Cartes/petits.jpeg)
+
 
 #### Marine Le Pen
 
@@ -807,78 +801,28 @@ CS8 & 0.13 & 0.24 & 0.24 & -0.36 & -0.65 & -0.01 & 0 & 0.03 & 1 & 0.59 & -0.62 &
 \end{table}
 \end{landscape}
 \clearpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Annexes: Histogrammes}
-\setcounter{figure}{0} 
 
-% histo Fillon
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.4]{histogrammes/H_FIFI_6CLASSES.jpg}
-    \caption{Histogramme des résultats pour François Fillon lors du 1er tour.}
-    \label{H1F}
-\end{figure}
 
-% histo Hamon
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.4]{histogrammes/H_HAMON_6CLASSES.jpg}
-    \caption{Histogramme des résultats pour Benoît Hamon lors du 1er tour. }
-    \label{H1H}
-\end{figure}
+# Annexes : Histogrammes
 
-% histo Le Pen
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.4]{histogrammes/H_LEPEN_6classes.jpg}
-    \caption{Histogramme des résultats pour Marine Le Pen lors du 1er tour.}
-    \label{H1L}
-\end{figure}
+![](Cartes/H_FIFI_6CLASSES.jpg)
 
-% histo Macron
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.4]{histogrammes/H_MACRON_6Classes.jpg}
-    \caption{Histogramme des résultats pour Emmanuel Macron lors du 1er tour.}
-    \label{H1EM}
-\end{figure}
+![](Cartes/H_HAMON_6CLASSES.jpg)
 
-% histo melenchon
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.4]{histogrammes/H_PI_MELENCHON_6CLASSES.jpg}
-    \caption{Histogramme des résultats pour Jean-Luc Mélenchon lors du 1er tour.}
-    \label{H1M}
-\end{figure}
+![](Cartes/H_LEPEN_6classes.jpg)
 
-% Histo Petits
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.4]{histogrammes/histopetits_dupont.jpg}
-    \caption{Histogramme des résultats pour l'ensemble des petits candidats lors du 1er tour.}
-    \label{H1PC}
-\end{figure}
+![](Cartes/H_MACRON_6Classes.jpg)
 
-% Histo 2 eme tour Le Pen
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.4]{histogrammes/H2L.jpg}
-    \caption{Histogramme des résultats pour Marine Le Pen lors du second tour.}
-    \label{H2L}
-\end{figure}
+![](Cartes/H_PI_MELENCHON_6CLASSES.jpg)
 
-% Histo 2eme tour Macron
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.4]{histogrammes/H2M.jpg}
-    \caption{Histogramme des résultats pour Emmanuel Macron lors du second tour.}
-    \label{H2M}
-\end{figure}
-\clearpage
+![](Cartes/histopetits_dupont.jpg)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Annexes: Cartes}
-\setcounter{figure}{0} 
+![](Cartes/histogrammes/H2L.jpg)
+
+![](Cartes/histogrammes/H2M.jpg)
+
+
+# Annexes : Cartes
 
 ![](Cartes/abstention.jpeg)
 
