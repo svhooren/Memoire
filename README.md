@@ -680,9 +680,49 @@ Grâce à ces résultats nous sommes en mesure de dire que les **quartiers** où
 
 Les liens entre le comportement électoral et la répartition spatiale des classes sociales sont, à l'échelle intra-urbaine, le vote de classe et l'effet de voisinage. Effectivement, comme nos résultats l'ont montré, la classe sociale joue un rôle non-négligeable dans la compréhension de la décision électorale, mais il n'est plus le seul explicatif. L'effet de voisinage s'ajoute au vote de classe pour expliquer les quelques écarts entre le vote théorique que nous avons réalisé et le vote réel. Nous avons également montré que les quartiers dominés par les classes intermédiaires votent différemment et ne revendiquent pas la même idéologie partisane. La nouvelle classe moyenne se scinde en deux, avec les quartiers surreprésentés par les professions intermédiaires qui ont tendance à voter pour des candidats de la gauche ou des extrêmes en moindre mesure, et les quartiers dominés par les cadres, les professions intellectuelles supérieures, qui choisissent des candidats de droite. Enfin l'échelle intra-urbaine est la plus proche de l'individu, bien qu'elle ne montre que le choix électoral des quartiers. Elle pourrait encore être améliorée à l'aide de la géographie urbaine et les liens avec les dynamiques de gentrification.
 
-# Bibliographie
+# Références
 
+##### (APUR) Atelier Parisien d’Urbanisme. Les classes moyennes et le logement à Paris. 2006.
+##### Adoumié Vincent. Géographie de la France. 2013. Paris , Hachette.
+##### Beauguitte Laurent, Colange Céline. Analyser les comportements électoraux à l’échelle du bureau de vote. 2013.
+##### Braconnier Céline, Coulmont Baptiste, Dormagen Jean-Yves. Toujours pas de chrysan- thèmes pour les variables lourdes de la participation électorale : Chute de la participation et augmentation des inégalites électorales au printemps 2017 // Revue française de science politique. 2017. 67, 6. 1023.
+##### Braconnier Céline, Dormagen Jean-Yves. Une démocratie de l’abstention. Retour sur le non-vote et ses conséquences politiques lors des scrutins municipaux et européens de 2014 // Hérodote. 2014. 154, 3. 42.
+##### Braconnier Céline, Lehingue Patrick. Une autre sociologie du vote, Les électeurs dans leurs contextes : bilan critique et perspectives. 2010. Laboratoire d’études juridiques et poli- tiques.
+##### Bréchon P. Les surprises de l’élection présidentielle de 2017. 2017.
+##### Bussi Michel, Fourquet Jérôme, Colange Céline. Analyse et compréhension du vote lors des élections présidentielles de 2012 : L’apport de la géographie électorale // Revue française de science politique. 2012. 62, 5. 941.
+##### Bussi Michel, Freire-Diaz Sylviano. Les nouvelles spatialités des comportements électoraux français. L’exemple des élections présidentielles 1981-1995. 2002.
+##### Charney Igal, Malkinson Dan. Between electoral and urban geography : Voting patterns and socio-spatial dynamics in Tel Aviv // Applied Geography. III 2015. 58. 1–6.
+##### Chauvel Louis. Les classes moyennes à la dérive. 2006. Seuil.
+##### Clark Thierry, Lipset Seymour. The breakown of class politics : A debate on post-industrial stratification. 2001. Johns Hopkins University Press.
+##### Clerval Anne. La gentrification à Paris intra-muros : dynamiques spatiales, rapports sociaux et politiques publiques. 2008.
+##### Clerval Anne. Paris sans le peuple : La gentrification de la capitale. 2013. La découverte. David Quentin, Van Hamme Gilles. Pillars and electoral behavior in Belgium : The neigh-borhood effect revisited // Political Geography. VI 2011. 30, 5. 250–262.
+##### De Graaf Dirk, Nieuwbeerta Paul. The effects of class voting post-war western indistrualized countries // European Sociological Review. 2000.59
+##### Ehrhard Thomas. La difficile condition des "petits candidats". 2017.
+##### Fourquet Jérôme. Un nouveau clivage : Perdants versus gagnants de la mondialisation Commentaire. 2017. Numéro158, 2. 265.
+##### Franklin Mark. The decline of Cleavage Politics. 1992. Cambridge University Press.
+##### Gana Alia, Hamme Gilles Van, Rebah Maher Ben. Géographie électorale et disparités socio- territoriales : les enseignements des élections pour l’assemblée constituante en Tunisie // L’Espace Politique. XI 2012. 18.
+##### Garnier Jean-Pierre. Une violence éminemment contemporaine : Essai sur la ville ville, La petit bourgeoisie intellectuelle et l’effacement des classes populaires. 2010. Argone.
+##### Girault Frédéric, Bussi Michel. Les organisations spatiales de la ségrégation urbaine : l’exemple des comportements électoraux // Espace géographique. 2001. 30, 2. 152.
+##### Gombin Joël, Rivière Jean. Éléments quantitatifs sur la dimension spatiale des effets électo- raux des inégalités sociales dans les mondes périurbains français (2007-2012). 2013.
+##### Gombin Joël, Rivière Jean. Vers des convergences interdisciplinaires dans le champ des études électorales ? VII 2014. ##### Hamon Francis, Troper Michel. Droit constitutionnel - 39ème édition. 2018. (Manuels).
+#####  James Gareth, Witten Daniela, Hastie Trevor, Tibshirani Robert. An Introduction to Sta- tistical Learning. 103. New York, NY : Springer New York, 2013. (Springer Texts in Statistics).
+##### Jardin Antoine. Le vote intermittent - Comment les ségrégations urbaines influencent-elles les comportements électoraux en Ile-de-France ? // L’Espace Politique. VII 2014. 23.
+##### Klatzmann Joseph. Population ouvrière et vote communiste à Paris // Actes de la recherche en sciences sociales. 1981. 36, 1. 83–86.
+##### Lazarsfeld Paul, Berelson Bernard, Gaudet Hazel. The people’s choice. 1944. Columbia University Press.
+##### Le monde AFP. Qui sont les six "petits" candidats ? IV 2017.
+##### Ley David. The new middle class and the remaking of the Central city. 1996. Oxford Uni-
+##### versity Press.
+##### Mansley Ewan, Demsar Urska. Space matters : Geographic variability of electoral turnout determinants in the 2012 London mayoral election // Electoral Studies. 2015. 40. 322–334.
+##### Pinçon-Charlot Monique, Pinçon Michel. Sociologie de la bourgeoisie. 2003. La découverte. Pion Geoffrey. Géographie des comportements électoraux protestataires en Wallonie : une approche infra-communale à Charleroi et Mons // Belgeo. 2009. 2. 153–168. 60
 
+##### Rivière Jean. Vote et géographie des inégalités sociales : Paris et sa petite couronne. 2012. Rivière Jean. Sous les cartes, les habitants : La diversité du vote des périurbains en 2012 Esprit. 2013. Mars/Avril, 3. 34.
+##### Rivière Jean. Les divisions sociales des métropoles françaises et leurs effets électoraux Une comparaison des scrutins municipaux de 2008. 2014.
+##### Rivière Jean. L’espace électoral des grandes villes françaises : Votes et structures sociales intra-urbaineslors du scrutin présidentiel de 2017 // Revue française de science politique. 2017. 67, 6. 1041.
+##### Robinson William. Ecological Correlations and the Behavior of Individuals. 1950.
+##### Tiberj Vincent. Running to stand still, Le clivage gauche/droite en 2017. 2017.
+##### Van Criekingen Mathieu. Méthodes Quantitatives et Modélisation en Géographie. 2018.
+##### Van Hamme Gilles. Social classes and political behaviours : Directions for a geographical analysis // Geoforum. VI 2012. 43, 4. 772–783.
+##### Van Hamme Gilles, Van Criekingen Mathieu. Recompositions de classes et clivages poli- tiques au sein des espaces urbains // Espace et rapports de domination, Rennes : Presses Universitaires de Rennes, pp. 189 - 200. 2015. 9.
 
 # Annexes : Histogrammes
 
@@ -696,11 +736,9 @@ Les liens entre le comportement électoral et la répartition spatiale des class
 
 ![](Cartes/H_PI_MELENCHON_6CLASSES.jpg)
 
-![](Cartes/histopetits_dupont.jpg)
+![](Cartes/H2L.jpg)
 
-![](Cartes/histogrammes/H2L.jpg)
-
-![](Cartes/histogrammes/H2M.jpg)
+![](Cartes/H2M.jpg)
 
 
 # Annexes : Cartes
