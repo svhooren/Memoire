@@ -61,6 +61,7 @@ Enfin il incombe de s'intéresser à la **gentrification** de Paris, pour bien a
 
 Selon Clerval A. (Clerval A., 2013), la gentrification est le processus par lequel l'espace urbain se modifie afin de correspondre aux rapports sociaux actuels. Elle la définit comme la dépossession des classes populaires par les « franges supérieures des nouvelles classes moyennes de la société post-industrielle ». De manière  simplifiée, ces nouvelles classes moyennes pratiquant le dépeuplement des classes populaires sont des personnes qui ne peuvent pas se payer les mêmes logements que la haute bourgeoisie, mais qui appartiennent à la petite bourgeoisie intellectuelle. Elles décident d'habiter à Paris dans des logements souvent neufs ou rénovés, alors que ces logements étaient auparavant habités par les classes populaires et leur sont devenus inaccessibles.
 
+![](Cartes/gentrif_1_.jpg)
 \begin{figure}[h!]
     \centering
     \includegraphics[scale=0.4]{image/gentrif_1_.jpg}
@@ -129,12 +130,8 @@ Paris est une ville de petite superficie située sur la Seine dans un bassin sé
 
 Le système ferroviaire qui s'est mis en place à partir du 19ème siècle rayonne en partant de Paris vers la banlieue. Au fil du temps apparaît la ville de Paris telle que nous la connaissons actuellement, avec un ensemble de lignes représentant une longueur de 32 kilomètres qui longent la petite ceinture en bordure des arrondissements. Ces lignes sont accompagnées en 1973 du périphérique qui différencie Paris de sa banlieue. Paris intra-muros est la ville reprise au sein de celui-ci, le Paris des arrondissements. Il existe par ailleurs une petite couronne qui comprend la Haute Seine, la Seine Saint-Denis et le Val de Marne ainsi qu'une grande couronne qui compte le Val d'Oise, Yvelines, l'Essone et la Seine-et-Marne.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.55]{Cartes/arrondissements.jpeg}
-    \caption{Cartes des arrondissements de Paris. }
-    \label{arrondissements}
-\end{figure}
+![](Cartes/arrondissements.jpeg)
+
 
 A l'échelle de la France, le grand Paris ou l'île de France ne fait que 3\% du territoire, mais compte 19\% de la population française et représente 31\% du PIB national grâce à son rôle de capitale économique. Les emplois qualifiés et la haute technologie ont remplacés les industries métallurgiques et automobiles d'antan. Depuis l'époque de la Renaissance, elle a un rôle important et à présent, Paris est reconnue comme une ville mondiale (au sens de Saskya Sassen \footnote{La ville mondiale doit être un centre de commandement dans l'économie mondiale, un site de services de grandes puissances ainsi qu'un centre financier international. Il faut qu'elle serve de lieu de développement et d'innovation dans les secteurs de la finance et des services et enfin elle doit servir de marché à ces innovations et services.}) au même titre que New-York, Londres ou encore Tokyo. 
 
@@ -179,12 +176,12 @@ Enfin, **Emmanuel Macron**, est le candidat le plus compliqué à situer, mais s
 Le reste des candidats présents lors de ces élections, font partie des petits candidats selon la loi du 15 janvier 1990 <sub>La loi du 15 janvier 1990 définit un seuil de scores (5\%) en dessous duquel un candidat est un petit candidat.}. Cette définition sert à la différenciation des niveau de plafonnement du remboursement des frais de campagnes entre les candidats. (Erhard, 2017)<sub>
 
 Ceux-ci sont également classables en fonction de leur programme (Le monde, 2017) :
-\begin{itemize}[label=\textbullet]
-    \item Nathalie Arthaud et Philippe Poutou sont les représentants de l'extrême gauche communiste.
-    \item Nicolas Dupont-Aignan et François Asselineau ont une vision proche de l'extrême droite, même si ils souhaitent en être différenciés tous les deux. Ils sont pour un Frexit et la remise en question de l'Europe.
-    \item Jacques Cheminade est montré comme un eurosceptique et conspirationniste, et son programme ne permet pas de réellement le situer.
-    \item Jean Lassalle représente la droite rurale d'antan.
-\end{itemize}
+
+- Nathalie Arthaud et Philippe Poutou sont les représentants de l'extrême gauche communiste.
+- Nicolas Dupont-Aignan et François Asselineau ont une vision proche de l'extrême droite, même si ils souhaitent en être différenciés tous les deux. Ils sont pour un Frexit et la remise en question de l'Europe.
+- Jacques Cheminade est montré comme un eurosceptique et conspirationniste, et son programme ne permet pas de réellement le situer.
+- Jean Lassalle représente la droite rurale d'antan.
+
 
 
 
@@ -214,11 +211,9 @@ Les **secteurs des bureaux de vote de 2012 et 2017** à Paris sont exploités so
 
 Pour la **cartographie**, les arrondissements de Paris, la Seine et Notre Dame sont des shapefiles extraits d'[OpenStreetMap](https://www.openstreetmap.org/). Ils sont surimposés aux secteurs des bureaux de vote de 2017.
 
-
-
 L'ensemble de ces données sert de base pour des démarches statistiques et cartographiques mais ces données doivent être préalablement traitées et différentes étapes sont nécessaires. Tout d'abord la ventilation des données sociologiques de l'INSEE, ensuite la création d'un identifiant commun entre les secteurs des bureaux de votes de 2012 et ceux de 2017. Grâce à cela, le croisement des données sociologiques et des résultats électoraux est possible. Ensuite,afin de faciliter l'analyse et d'offrir une visualisation précise du contexte, un ensemble de cartes électorales et sociales est produit. Enfin, pour offrir une analyse scientifique précise, des traitements statistiques sont effectués sur les différentes données sociologiques et électorales.
 
-###Ventilation des données
+### Ventilation des données
 
 Les données sociologiques de 2011 et les résultats électoraux de 2017 nécessitent d'être mis à la même échelle pour pouvoir les analyser. Afin d'obtenir des données exploitables à l'échelle des bureaux de vote de l'élection présidentielle 2017, une démarche statistique est nécessaire.
 
@@ -232,11 +227,10 @@ Il aurait été plus judicieux de directement appliquer la ventilation au sein d
 
 Nous détenons un lien entre les deux tables donnant la table finale. Celle-ci  contient :
 
-\begin{itemize}[label=\textbullet]
-	\item les données sociologiques de 2011
-	\item les résultats électoraux de 2017
-	\item la géométrie des polygones des bureaux de vote de 2012 et 2017.
-\end{itemize}
+- les données sociologiques de 2011
+- les résultats électoraux de 2017
+- la géométrie des polygones des bureaux de vote de 2012 et 2017.
+
 
 Elle est ensuite traitée de manière à ne conserver que les données sociologiques nécessaires (la population totale, l'âge, les catégories socio-professionnelles), les résultats électoraux (le nombre d'inscrits par bureau, les résultats en nombre de votes de chaque candidats par bureau) et l'identifiant des bureaux de vote de 2017. L'ensemble de ces données sont transformées en pourcentage. Lors de la ventilation, et plus exactement de l'insertion des identifiants des bureaux de vote de 2012 au sein de ceux de 2017, certains choix sont réalisés, notamment lorsque deux ou plusieurs bureaux de 2017 se retrouvent sous un seul bureau de 2012, l'identifiant de 2012 est insérée dans chacun des bureaux de 2017. A l'inverse, lorsqu'il existe plusieurs bureaux de 2012 qui se superposent pour un de 2017, la somme des deux est introduite. Quand un ensemble de bureaux se chevauchaient et partageaient un bureau de 2017 en deux, celui avec le plus grand nombre de population a été utilisé. Enfin 26 bureaux de vote de 2017 n'ont pas trouvé de correspondants en 2012. De même, les résultats des régressions et de l'Analyse en Composantes Principales sont basés sur 860 bureaux et non pas 896.
 
@@ -244,18 +238,23 @@ L'ensemble du traitement statistique est réalisée à l'aide du logiciel RStudi
 
 
 ## La cartographie
+
 Mis à part les traitements des tables de données\footnote{Ces traitements sont réalisés au sein de [RStudio](https://www.rstudio.com), l'ensemble des cartes sont réalisées dans le logiciel de SIG OpenSource [QGIS](https://www.qgis.org/fr/site/). La cartographie permet d'observer rapidement l'information, mais surtout de visualiser et contextualiser ce qui est exprimé. Dans un premier temps, une carte des arrondissements de Paris est produite pour aider le lecteur à les situer ainsi que différentes carte des classes sociales par bureaux de votes. Ensuite, un ensemble de cartes électorales est réalisé, tel que l'abstention au 1er et second tour, les résultats du 1er tour pour l'ensemble des grandes candidats, au nombre de cinq, une carte reprenant les résultats sommés des petits candidats et une carte des résultats de chacun des deux candidats lors du second tour. 
 
 ## Convention
+
 Pour que les cartes puissent être comparées, elles nécessitent la même convention, à savoir qu'elles comportent toutes un shapefile des bureaux de vote de Paris intra-muros en 2017, un shapefile des arrondissements pour mieux se situer, et un shapefile modifié des cours d'eau à Paris pour ne garder que la Seine. Par ailleurs, chaque carte est projetée selon le même EPSG : Lambert zone II, 27572 centré sur Paris ainsi que la même échelle 1:50000.
 
 ## La centralité
+
 Pour calculer la distance au centre (voir \ref{regmultiple}) de chaque bureau, la cathédrale de Notre Dame de Paris est utilisée comme point central de Paris. Sa localisation est récupérée, introduite dans un fichier CSV contenant "Name/lon/lat". Celui-ci sert à la création d'un point (EPSG27572) sur la carte. Ensuite les polygones des bureaux de votes sont convertis en points via le plugin [MMQGIS](https://plugins.qgis.org/plugins/mmqgis/) où nous spécifions que le package doit se baser sur les centroïdes des polygones. Au final nous calculons la distance entre les différents points via la matrice des distances de l'outil d'analyse de QGIS. Cette nouvelle colonne est extraite et ajoutée à la table contenant les résultats de votes, les catégories socio-professionnelles et l'âge.
 
 ## Les petits candidats
+
 Sur base de la somme de l'ensemble des résultats des cinq grands candidats, les abstentions, les non-votants, on obtient près de 95\% des votes. Une carte des petits candidats est intéressante si une géographie est observable. Afin de cartographier les résultats des votes pour l'ensemble des petits candidats, il faut sommer leurs résultats puis cartographier le résultat. 
 
 ## Les cartes électorales
+
 La démarche est la même pour l'ensemble des cartes. Les données utilisées sont les pourcentages de vote des inscrits. En effet, le calcul des pourcentages de vote sur base du nombre d'électeurs inscrits au moment des élections par bureau de vote, rend compte du poids de l'abstention, contrairement aux pourcentages sur base des suffrages exprimés. (Rivière J., 2013)
 
 \begin{table}[h]
@@ -291,7 +290,6 @@ L'analyse en composantes principales est une analyse factorielle permettant de t
 Les composantes principales ont la particularité d'être orthogonales les unes aux autres, le 1er axe reprend le maximum possible de la variance, le second perpendiculaire va en diminuant et ainsi de suite.  
 Les axes se rejoignent en un point: le centre de gravité. Il s'agit de la valeur moyenne de chaque variable. De plus les composantes principales sont parfaitement non corrélées entre elles, chacune donne une part non redondante de l'information. (Rivière J., 2017)
 
-
 Dans le cadre de ce travail, l'Analyse en Composantes Principales est appliquée sur l'ensemble des candidats du premier tour, afin de déceler les clivages ayant pris place durant les élections présidentielles 2017. Dans une optique socio-géographique, les classes sociales sont ajoutées en variables complémentaires après les avoircentrées-réduites pour être dans le même système d'axe. L'ensemble du traitement est réalisé à l'aide du programme statistique R. 
 
 ## Les régressions linéaires multiples
@@ -309,11 +307,9 @@ Dans ce chapitre sont présentés l'ensemble des résultats, nous y retrouvons l
 
 ## La cartographie
 
-
 ### L'abstention lors du premier tour
 
 La géographie de l'abstention lors de ce premier tour connaît un léger gradient Est-Ouest. La périphérie représente les scores les plus élevés, entre 20 et 36 %. Nous retrouvons également une zone plus faible à l'intérieur du 16ème (entre 10 et 16%), zone des beaux quartiers historiquement (voir Figure \ref{classessoc}). L'abstention est uniquement cartographiée au sein de ce travail pour aider à visualiser le contexte, mais chercher à la comprendre et à l'expliquer relève d'un travail à part entière. 
-
 
 ### L'électorat de François Fillon
 
@@ -321,15 +317,8 @@ L'histogramme de François Fillon (voir Annexe \ref{H1F}), est assymétrique à 
 
 Les bureaux de vote ayant le plus voté pour François Fillon sont concentrés à l'Ouest (voir Figure \ref{C1F}), au sein des 7ème, 8ème, 16 ème et 17 ème arrondissements, mais également des 1er, 2ème, 9ème et 15ème arrondissements avec des scores moins élevés. Nous pouvons observer une similitude entre la carte de l'électorat de François Fillon et la carte des classes aisées à Paris (voir Annexe \ref{aises})  La majorité des quartiers des arrondissements de l'Est ont des résultats plus faibles. Comme le présageait, l'histogramme la majeure partie des bureaux ont voté faiblement pour ce candidat quoique ces scores évoluent malgré tout jusqu'à 20%. La Seine constitue une frontière pour l'électorat de François Fillon. Enfin, l'ensemble des quartiers qui représentent ses plus faibles pourcentages de vote, sont repris en un croissant à l'Est, ceux-ci semblent être les zones de survote pour de Jean-Luc Mélenchon (voir Figure \ref{C1M}) et Benoît Hamon (voir Figure \ref{C1H}), mais également de surreprésentation des classes moyennes et populaires (voir Annexes \ref{interm},\ref{popu}).
 
-\begin{landscape}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.62]{Cartes/Fillon.jpeg}
-    \caption{Résultats pour François Fillon lors du 1er tour.}
-    \label{C1F}
-\end{figure}
-\end{landscape}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+![](Cartes/Fillon.jpeg)
+
 ### L'électorat de Benoît Hamon
 
 L'histogramme des résultats de Benoît Hamon est symétrique (voir Annexe \ref{H1H}), avec son sommet à 9%. La plupart des quartiers ont voté entre 6 et 12% pour ce candidat, mais malgré tout de nombreux quartiers ont voté pour lui entre 1,5 à 6%. Le candidat de la gauche traditionnelle perçoit peu de votes dans l'ensemble contrairement aux anciens candidats du Parti Socialiste.
@@ -338,14 +327,7 @@ La carte de l'électorat de Benoît Hamon (voir Figure \ref{C1H}) présente un g
 
 Une frontière marquée par la Seine apparaît au Sud de Paris, les votes pour Benoît Hamon sont majoritaires à l'Est et diminuent drastiquement à l'Ouest lorsque nous passons le cours d'eau. En analysant la carte, il semble que le vote pour Benoît Hamon soit relativement proche du centre, voir centré. Ajoutons aussi que la carte de son électorat ressemble à celle des professions intermédiaires (voir Annexe \ref{interm}) et des 25-39 ans (voir Annexe \ref{2539})
 
-\begin{landscape}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.62]{Cartes/Hamon.jpeg}
-    \caption{Résultats pour Benoît Hamon lors du 1er tour.}
-    \label{C1H}
-\end{figure}
-\end{landscape}
+![](Cartes/Hamon.jpeg)
 
 ### L'électorat de Marine Le Pen
 
@@ -353,23 +335,12 @@ L'histogramme de Marine Le Pen présente une distribution assymétrique à gauch
 
 La géographie du vote pour Marine Le Pen (voir Figure \ref{C1L}) reprend pratiquement l'ensemble de la couronne de Paris, à l'exception de la bordure du 16ème arrondissement où sont regroupés les classes les plus aisées (voir Figure \ref{classessoc}). Sur les bordures, où elle réalise des scores moyens à élevés, nous retrouvons majoritairement les catégories socio-professionnelles moyennes inférieures et populaires (voir Figure \ref{classessoc}). La carte de la répartition de la classe populaire (voir Annexe \ref{popu}) ainsi que celle des Zones Urbaines Sensibles\footnote{Les zones urbaines sensibles (ZUS) sont des territoires infra-urbains définis par les pouvoirs publics pour être la cible prioritaire de la politique de la ville, en fonction des considérations locales liées aux difficultés que connaissent les habitants de ces territoires.(INSEE)} (ZUS) (voir Figure \ref{zus}) semblent appuyer le caractère populaire de l'électorat pour Marine Le Pen. En effet, là où les votes sont les plus élevés pour la candidate, se situe une Zone Urbaine Sensible ou un Contrat de Cohésion Urbain Social (CUCS), zone de surreprésentation des employés, ouvriers et sens emplois.
 
-% ZUS CUCS
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/cucs.png}
-    \caption{Zones Urbaines Sensibles (ZUS) et Contrats Urbains de Cohésion Sociale (CUCS).}
-    \label{zus}
-\end{figure}
+
+![](Cartes/cucs.png)
 
 
-\begin{landscape}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.62]{Cartes/Lepen.jpeg}
-    \caption{Résultats pour Marine Le Pen lors du 1er tour.}
-    \label{C1L}
-\end{figure}
-\end{landscape}
+![](Cartes/Lepen.jpeg)
+
 
 ### L'électorat d'Emmanuel Macron
 
@@ -383,24 +354,9 @@ En analysant l'histogramme de Jean-Luc Mélenchon (voir Annexe \ref{H1M}), on co
 
 Les résultats de vote pour Jean-Luc Mélenchon (voir Figure \ref{C1M}) se présentent, à l'instar de Benoît Hamon (voir Figure \ref{C1H}), en un gradient Est-Ouest. Les scores sont cependant plus élevés pour ce candidat, ils sont entre 21 et 35%, et sont également plus marqués en périphérie du croissant alors que Benoît Hamon réalise ses meilleurs scores à l'intérieur de celui-ci. Constatons à nouveau les pourcentages les plus faibles dans les quartiers bourgoies où François Fillon réalise ses meilleurs scores et où les catégories aisées sont les plus présentes (voir Figure \ref{C1F}, Annexe \ref{aises}). Jean-Luc Mélenchon connaît un survote au sein des 18ème, 19ème et 20ème arrondissements, lieux de concentrations des classes sociales défavorisées (voir Annexe \ref{popu}), des ZUS et CUCS (voir Figure \ref{zus}). 
 
-% a approfondir
-\begin{landscape}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.62]{Cartes/Macron.jpeg}
-    \caption{Résultats pour Emmanuel Macron lors du 1er tour.}
-    \label{C1EM}
-\end{figure}
-\end{landscape}
+![](Cartes/Macron.jpeg)
 
-\begin{landscape}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.62]{Cartes/Melenchon.jpeg}
-    \caption{Résultats pour Jean-Luc  Mélenchon lors du 1er tour.}
-    \label{C1M}
-\end{figure}
-\end{landscape}
+![](Cartes/Melenchon.jpeg)
 
 
 ### L'électorat des petits candidats
@@ -459,22 +415,12 @@ La carte de l'électorat d'Emmanuel Macron (voir Annexe \ref{C2M}) est très hom
 
 Au sein de ce travail les variables intégrées dans l'analyse en composantes principales sont les résultats des différents candidats par bureau de vote auxquels nous superposons les variables quantitatives supplémentaires : les catégories sociales. Le système d'axes qui en ressort offre la possibilité de placer les candidats selon les différentes composantes principales et de les situer par rapport aux classes sociales. <sub>Attention, l'Analyse en Composantes Principales ne permet pas de tirer des conclusions sur des possibles liens entre les variables introduites et les variables supplémentaires puisque deux points proches sur un axe ne le sont peut-être pas dans un autre système d'axes, pour tirer de telles conclusions le seul outil reste les régressions.<sub> Elle n'est qu'une simplification de l'espace électoral, une réduction de l'information en replaçant sur un nouveau système d'axes les résultats par candidats des bureaux de vote.
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.5]{ACP/testons.jpeg}
-    \caption{Screeplot de l'analyse en composantes principales sur l'ensemble des candidats.}
-    \label{scree}
-\end{figure}
+![](Cartes/testons.jpeg)
 
 Avant toute analyse du graphique des composantes, nous observons la portion de variance captée par chaque composante sur le screeplot de l'analyse en composantes principales. Comme nous pouvons le constater sur le graphique (voir Figure \ref{scree}), les trois premières composantes expliquent 67% de la variance totale tandis que les suivantes en expliquent une beaucoup plus petite part.
 
-\begin{figure}[]
-    \centering
-    \includegraphics[scale=0.6]{ACP/testonsacp.jpeg}
-    \caption{Analyse en composantes principales sur l'ensemble des candidats avec les catégories sociales en variables complémentaires.}
-    \label{ACP1}
-\end{figure}
-\pagebreak
+![](Cartes/testonsacp.jpeg)
+
 
 La première composante principale (voir Figure \ref{ACP1}) lie Emmanuel Macron avec Benoît Hamon et d'autre part elle les oppose à François Fillon, Marine Le Pen et Nicolas Dupont-Aignan. De manière beaucoup moins significative, Jean-Luc Mélenchon est représenté du côté de Benoît Hamon et Emmanuel Macron tandis que François Asselineau est plus proche de Marine Le Pen, Nicolas Dupont-Aignan et François Fillon. Enfin les candidats Jean Lassalle, Nathalie Arthaud et Philippe Poutou sont trop proches de l'axe que pour réaliser une analyse correcte. Ce premier axe oppose les classes moyennes aux autres classes sociales.
 
@@ -488,6 +434,7 @@ Cette analyse en composantes principales, permet de se faire une idée de la gé
 
 
 ## Résultats des différentes régressions
+
 Pour chaque candidat, une régression linéaire multiple est effectuée. le choix des variables est réalisé sur base du tableau de corrélations entre les résultats des candidats, les catégories sociales, la population par âge et enfin la centralité (voir \ref{regmultiple}).
 
 Il est important de garder à l'esprit qu'une corrélation élevée entre une variables indépendante et les résultats d'un candidat, signifie seulement que la variable indépendante est surreprésentée au sein du quartier où les votes pour le candidat sont plus élevés. Par exemple, les artisans, les commerçants et les chefs d'entreprises sont généralement plus présents dans les quartiers où le vote est plus élevé pour François Fillon. De cette manière nous évitons l'erreur écologique (voir \ref{erreurecol}). L'ensemble des régressions devrait permettre de déceler un effet de structure, à savoir si le vote pour un candidat est plus important au sein d'un bureau parce que le vote y est simplement plus élevé pour ce candidat dans une ou plusieurs classes sociales, ou si la classe sociale qui vote pour lui est surreprésentée mais ne vote pas plus pour lui qu'ailleurs. (Bussi M., 2012)
@@ -631,6 +578,7 @@ L'électorat d'Emmanuel Macron est un électorat issus des quartiers où les pro
 Les résultats de la régression linéaire multiple de Jean-Luc Mélenchon (voir Table \ref{tab:reg_Me}) semblent être l'exact opposé de ceux pour François Fillon (voir Table \ref{tab:reg_F}) et est assez proche de celui de Benoît Hamon (voir Table \ref{tab:reg_h}). Les quartiers de surreprésentation des les classes aisées (CS2) mais également les professions intellectuelles supérieures (CS3), sont fortement corrélés négativement\footnote{Les CS3 sont corrélées négativement avec les CS5 et CS6.}, d'un autre côté les quartiers de professions intermédiaires (CS4), d'employés (CS5) et de retraités (CS7) sont corrélés positivement et significativement. Les quartiers ouvriers (CS6) sont le plus fortement corrélé, montrant leur importance décisive pour le vote de Jean-Luc Mélenchon. Ici, tout comme pour Benoît Hamon, la distance au centre est corrélée significativement mais cette fois elle est plus proche de la neutralité indiquant que les quartiers qui votent le plus fort pour Jean-Luc Mélenchon sont bien répartis sur le territoire.
 
 ### Les petits candidats
+
 La régression multiple des petits candidats (voir Table \ref{tab:reg_Petits}) avec les classes socio-professionnelles INSEE, l'âge et la centralité indique une corrélation positive avec les quartiers des professions intermédiaires, des employés (CS5) et des retraités (CS7). Les quartiers où ceux-ci sont les plus représentés sont ceux où les petits candidats font leurs meilleurs scores. A l'inverse, les quartiers où les artisans, commerçants et chefs d'entreprise (CS2) sont les plus présents, sont ceux qui représentent leurs moins bons scores. L'âge n'a presque pas d'importance, sauf pour les quartiers avec une surreprésentatino des 18-24 ans qui sont corrélés positivement de manière très peu significative. Enfin, comme pour Jean-Luc Mélenchon (voir Table \ref{tab:reg_Me}) et Benoît Hamon (voir Table \ref{tab:reg_h}), la distance au centre joue un rôle, mais elle est proche de zéro, indiquant un caractère ni central ni périphérique pour le vote des petits candidats.
 
 ### Le second tour
@@ -640,14 +588,16 @@ La régression du vote pour Marine Le Pen lors de ce second tour indique une for
 Emmanuel Macron présente une régression multiple du second tour beaucoup plus intéressante, son électorat est corrélé avec les quartiers de classes moyennes supérieures, mais aussi inférieures et de manière moins significative avec les quartiers où les classes aisées sont en surreprésentation. La distance au centre reste négative comme au premier tour.
  
 # Discussion
+
 La littérature amène deux hypothèses majeures. La première pose que la classe sociale connaît un déclin dans l'explication du vote et est à présent accompagnée d'autres effets pour la compréhension complète de la décision électorale. La seconde indique que la scission des classes moyennes amène des phénomènes électoraux nouveaux.
 
 ## Limites de l'étude
+
 Avant d'interpréter les résultats, il est important de présenter les biais de notre analyse socio-géographique de Paris. Tout d'abord l'echelle intra-urbaine pose deux problèmes:
-\begin{itemize}[label=\textbullet]
-    \item Le découpage des bureaux de votes change parfois aléatoirement selon les années.
-    \item La non-superposition des données sociales (généralement par communes) avec les bureaux de votes oblige une ventilation de données fragilisant ainsi la concordance.\citep{jardin_vote_2014}
-\end{itemize}
+
+- Le découpage des bureaux de votes change parfois aléatoirement selon les années.
+- La non-superposition des données sociales (généralement par communes) avec les bureaux de votes oblige une ventilation de données fragilisant ainsi la concordance. (Jardin, 2014)
+
 
 Ajoutons que, comme expliqué dans la méthodologie (voir \ref{ventilation}), la mise en commun des données a provoqué la perte des données de 20 bureaux de vote de 2012 contenant des données sociologiques. Une demande des résultats directement à la ville de Paris et à l'échelle souhaitée aurait permis une meilleure mise en commun des données. Toujours au sein de la méthodologie, notre étude des classes pourrait être améliorée en ajoutant le niveau de diplôme qui semble être une variable importante au sein de la décision électorale ainsi que de l'abstention. (Rivière J, 2017)
 
@@ -656,26 +606,15 @@ La question de la pertinence des classes au sein de l'abstention est posée par 
 Enfin, l'indicateur de centralité utilisé, à savoir la distance à Notre Dame, donne des corrélations très faibles, proches de 0, mais le caractère positif ou négatif de la relation ainsi que la significativité sont utilisées. Cette démarche peut être considérée comme une surinterprétation, mais les conclusions extraites des corrélations sont appuyées par la littérature.
 
 
-###Le vote de classe lors des élections présidentielles 2017
+### Le vote de classe lors des élections présidentielles 2017
 
 Afin d'observer si le vote de classe joue encore un rôle au sein des dernières élections présidentielles, il faut se pencher sur divers outils. 
 
 Tout d'abord l'échelle utilisée, à savoir l'**échelle intra-urbaine**, offre de nombreux avantages lors de l'observation du lien entre le vote et la classe sociale. Elle conserve le caractère hétérogène des quartiers. En effet, les disparités observées à l'échelle la plus fine constituent les différences visibles à l'échelle la plus large (régionale ou nationale par exemple). (Bussi M., 2001) De plus, une analyse à l'échelle intra-urbaine, évite le piège du spatialisme qui ne prend pas en compte les liens sociaux qui peuvent exister au sein de l'unité de recherche et permet de mettre en avant les effets de structure et de contextes. (Rivière J, 2012; Bussi M., 2012) Le risque majeur, lors d'une analyse de géographie électorale, consiste en l'erreur écologique. Effectivement, il convient de garder à l'esprit que ce sont des lieux qui sont étudiés et non pas des individus. (Beaugitte, 2013) Malgré tout, même si travailler à l'échelle intra-urbaine n'enlève pas l'erreur écologique, il en réduit le risque. Robinson J. (1950) considère qu'une taille plus fine d'entités spatiales, amène des relations visuelles et statistiques plus fiables. (Pion, 2009; Robinson, 1950) Enfin, un dernier effet s'observe à cette échelle, celui posé par Klatzmann J., à savoir l'influence de la décision électorale d'un quartier par les intéractions sociales avec un autre quartier. (David, 2011)
 
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.55]{Cartes/synthese.jpeg}
-    \caption{Synthèse des cartes des résultats de l'élection présidentielle 2017.}
-    \label{synthese}
-\end{figure}
+![](Cartes/synthese.jpeg)
 
 Une **carte schématique** de la surreprésentation de chacun des grands candidats (voir Figure \ref{synthese}) est produite sur base de leurs cartes respectives, afin de faciliter l'interprétation. L'Ouest des quartiers bourgeois historiques (voir Figure \ref{classessoc}, Annexe \ref{aises}) présente les meilleurs scores pour François Fillon. Le centre quant à lui est la zone des plus hauts résultats pour Emmanuel Macron, qui connait ses meilleurs scores aux quartiers de surreprésentation des cadres et professions intellectuelles supérieures (voir Annexe \ref{CS3}). Au Sud ainsi qu'à l'Est, entre la périphérie et la zone de survote pour Emmanuel Macron, sont disposés les votes les plus élevés pour Benoît Hamon, en lien cette fois-ci avec la carte des professions intermédiaires (voir Annexe \ref{CS4}). Les meilleurs résultats de Jean-Luc Mélenchon se situent dans les zones de quartiers populaires au Nord (voir Annexe \ref{popu}, et une petite partie de ce survote se situe au sein de l'électorat de Benoît Hamon. Enfin, Marine Le Pen est surreprésentée en périphérie. Notons que les électorats de Marine Le Pen (voir Figure \ref{C1L}) et Jean-Luc Mélenchon (voir Figure \ref{C1M}) mis en commun correspondent à la carte de la classes populaires à Paris (voir Annexe \ref{popu}).
-
-
-
-
-
 
 Toutefois, comme le rappelle Rivière J.(2013), les cartes seules n'expliquent en rien les liens possibles entre le vote et les types de territoires; elles peuvent au mieux les suggérer. Les **résultats empiriques** servent à déduire les liens réels. (Rivière J., 2013) La suite du travail porte donc sur deux techniques statistiques et leurs résultats. Tout d'abord nous avons réalisé une Analyse en Composantes Principales sur l'ensemble des résultats des différents candidats avec les classes sociales en surimposition, ensuite nous avons effectué des régressions linéaires multiples entre les résultats électoraux et les données de recensement de la population afin de déceler les structures ainsi que le poids des catégories sociales dans les choix électoraux. Les différentes classes sociales ne connaissent pas les mêmes choix électoraux selon le territoire. (Bussi M., 2012)
 
@@ -704,18 +643,13 @@ A l'aide de nos résultats nous avons **démontré** que la **classe sociale** g
 
 Malgré tout, l'analyse des cartes de **résidus de la régression linéaire multiple** pose question. Effectivement, en se basant sur la carte de synthèse des résidus (voir Figure \ref{synthres}), nous observons que le vote est encore plus ofrt qu'attendu par le modèle pour les grands candidats que ce qui était expliqué par le modèle.
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.55]{Cartes/residussynth.jpeg}
-    \caption{Synthèse des cartes des résidus des régressions linéaires multiples.}
-    \label{synthres}
-\end{figure}
-
+![](Cartes/residussynth.jpeg)
 
 Ces écarts indiquent que le vote de classe joue encore un rôle important mais qu'il n'est plus le seul à expliquer les choix électoraux. D'autres phénomènes entrent en jeu, pour beaucoup l'**effet de voisinage** est un élément important. Celui-ci peut s'observer dans des quartiers où une classe sociale est surreprésentée, mais qui vote différemment de ce qui est attendu, suite au voisinage d'un quartier de composition sociologique différente. Comme l'avait démontré Klatzmann J. avec les ouvriers dans un univers bourgeois qui ont tendance à voter libéral. (David, 2011)
 
 
 ### Le vote scindé des classes intermédiaires
+
 La classe moyenne connaît une division en son sein, celle-ci est dûe à la société actuelle de post-abondance comme l'expliquait Chauvel L. (2006). Cette **division interne** s'accompagne de l'individualisation de la classe laissant ainsi présager un vote scindé au sein de la classe moyenne. (Garnier, 2010; Pinçon-Charlot, 2003; Chauvel L. 2006) Afin d'analyser le vote de la classe intermédiaire, il importe de la définir. Comme l'explique Van Hamme G., les limites de cette classe son incertaines, elle se situe entre la bourgeoisie qui détient les moyens de productions, et les salariés de l'industrie et des services qui effectuent les tâches d'exécution. (Van Hamme, 2012) C'est sur base de cette définition que sont choisies les classes soiales au sein de ce travail :
 
 - Les classes aisées sont les artisans, commerçants et chefs d'entreprise.
@@ -727,11 +661,7 @@ Ainsi, il ne reste plus que les les professions intermédiaires (CS4), les cadre
 
 A nouveau, observons l'Analyse en Composantes Principales (voir Figure \ref{ACP1}). Au sein de l'axe centre-périphérie les classes moyennes inférieures et supérieures se positionnent du même côté, ce qui s'observe sur la carte des classes intermédiaires (voir Figure \ref{classmoy}). Elles sont surreprésentées au sein du centre et les seuls endroits où leur nombre décroit sont les bordures, le Nord-Est et l'Ouest bourgeois lieu de surreprésentation des classes aisées. A l'inverse, sur l'axe droite centriste - gauche et extrêmes, les classes moyennes supérieures sont en opposition avec les classes moyennes inférieures. Les premières sont liées à Emmanuel Macron, tandis que les secondes sont liées à Benoît Hamon, Mélenchon et en moindre mesure Marine Le Pen. 
 
-
 Afin de vérifier la véracité de ce que pose l'Analyse en Composantes Principales nous observons les \textbf{régressions}. Comme observé auparavant, le vote pour Emmanuel Macron est fortement corréle positivement avec les bureaux où les classes moyennes supérieures et les 25-39 ans sont surreprésentées (voir Table \ref{regM}) rejoignant les résultats de Rivière J. (2017). Il observe l'émergence du vote pour Emmanuel Macron à l'intérieur des quartiers regroupant les personnes détenant de fort capitaux, locataires du parc privé et fortement diplômés, mais plus jeunes que dans les beaux quartiers qui préfèrent François Fillon. (Rivière J., 2017) D'autre part nos résultats se croisent à nouveau sur la relation positive entre les quartiers de survote pour Emmanuel Macron et ceux de François Fillon et Benoît Hamon, quoique cette corrélation ne soit pas très élevée (voir Annexe \ref{tab:table_cor}).
-
-
-
 
 \begin{table}[]
 \centering
@@ -755,14 +685,11 @@ Les **résidus des régressions** nous indiquent un effet de voisinage, comme ex
 
 Un autre exemple probant si situe dans le Nord-Est du 12ème arrondissement. En bordure nous retrouvons une zone de surreprésentation des professions intermédiaires (voir Annexe \ref{CS4}). Seulement ces quartiers sont entourés d'une zone où les classe moyennes supérieures sont majoritaires, les amenant à voter plus qu'attendu pour Emmanuel Macron et Marine Le Pen alors que le modèle théorique leur donnait un vote pour Benoit Hamon, Jean-Luc Mélenchon.
 
-
 Grâce à ces résultats nous sommes en mesure de dire que les **quartiers** où les **classes intermédiaires** sont surreprésentées **ne votent pas de manière homogène**. Par conséquent une scission des classes intermédiaires en deux sous-classes, à savoir celles pourvues d'un capital économique, et celles pourvues d'un capital intellectuel, permet de justifier les nouveaux choix de ces quartiers. (Gombin J., 2013) Les premières votent pour la droite ou la droite centriste qui défend leurs intérêts économiques, les secondes se retrouvent dans les électorats de gauche ou d'extrême droite. Ces quartiers différenciés des classes moyennes, semblent être liés aux avancées successives de la gentrification (voir Figure \ref{gentrif}). Une étude de socio-géographie liée à de la géographie urbaine, comme  Mansley E. et Demsar U. (2015) l'ont fait pour Tel Aviv, pourrait éclairer les dynamiques en place. (Mansley, 2015) 
 
-
 # Conclusion
+
 Les liens entre le comportement électoral et la répartition spatiale des classes sociales sont, à l'échelle intra-urbaine, le vote de classe et l'effet de voisinage. Effectivement, comme nos résultats l'ont montré, la classe sociale joue un rôle non-négligeable dans la compréhension de la décision électorale, mais il n'est plus le seul explicatif. L'effet de voisinage s'ajoute au vote de classe pour expliquer les quelques écarts entre le vote théorique que nous avons réalisé et le vote réel. Nous avons également montré que les quartiers dominés par les classes intermédiaires votent différemment et ne revendiquent pas la même idéologie partisane. La nouvelle classe moyenne se scinde en deux, avec les quartiers surreprésentés par les professions intermédiaires qui ont tendance à voter pour des candidats de la gauche ou des extrêmes en moindre mesure, et les quartiers dominés par les cadres, les professions intellectuelles supérieures, qui choisissent des candidats de droite. Enfin l'échelle intra-urbaine est la plus proche de l'individu, bien qu'elle ne montre que le choix électoral des quartiers. Elle pourrait encore être améliorée à l'aide de la géographie urbaine et les liens avec les dynamiques de gentrification.
-
-
 
 # Bibliographie
 
@@ -953,159 +880,49 @@ CS8 & 0.13 & 0.24 & 0.24 & -0.36 & -0.65 & -0.01 & 0 & 0.03 & 1 & 0.59 & -0.62 &
 \section{Annexes: Cartes}
 \setcounter{figure}{0} 
 
-% CARTE ABST
-\clearpage
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.42]{Cartes/abstention.jpeg}
-    \caption{L'abstention au premier tour.}
-    \label{abs1}
-\end{figure}
+![](Cartes/abstention.jpeg)
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.42]{Cartes/abst2tour.jpeg}
-    \caption{L'abstention au second tour.}
-    \label{abs2}
-\end{figure}
+![](Cartes/abst2tour.jpeg)
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/Lepen2.jpeg}
-    \caption{Résultats pour Marine Le Pen lors du second tour.}
-    \label{C2L}
-\end{figure}
+![](Cartes/Lepen2.jpeg)
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/Macron2.jpeg}
-    \caption{Résultats pour Emmanuel Macron lors du second tour.}
-    \label{C2M}
-\end{figure}
+![](Cartes/Macron2.jpeg)
 
-% CARTES SCORES
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/scores_PC1.jpeg}
-    \caption{Scores de la première composante principale.}
-    \label{scores1}
-\end{figure}
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/scores_PC2.jpeg}
-    \caption{Scores de la seconde composante principale.}
-    \label{scores2}
-\end{figure}
-%\begin{figure}[h]
-%    \centering
-%    \includegraphics[scale=0.45]{Cartes/scores_PC3.jpeg}
-%    \caption{Score de la troisième composante principale.}
-%    \label{scores3}
-%\end{figure}
+![](Cartes/scores_PC1.jpeg)
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/residusF.jpeg}
-    \caption{Résidus de la régression linéaire de l'électorat de François Fillon.}
-    \label{residF}
-\end{figure}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/residusH.jpeg}
-    \caption{Résidus de la régression linéaire de l'électorat de Benoît Hamon.}
-    \label{residH}
-\end{figure}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/residusL.jpeg}
-    \caption{Résidus de la régression linéaire de l'électorat de Marine Le Pen.}
-    \label{residL}
-\end{figure}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/residusMA.jpeg}
-    \caption{Résidus de la régression linéaire de l'électorat d'Emmanuel Macron}
-    \label{residma}
-\end{figure}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/residusME.jpeg}
-    \caption{Résidus de la régression linéaire de l'électorat de Jean-Luc Mélenchon.}
-    \label{residme}
-\end{figure}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/residuspetits.jpeg}
-    \caption{Résidus de la régression linéaire de l'électorat des petits candidats.}
-    \label{residpeti}
-\end{figure}
+![](Cartes/scores_PC2.jpeg)
 
-% Carte cS
+![](Cartes/scores_PC3.jpeg)
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/CS3.jpeg}
-    \caption{Répartition des cadres et professions intellectuelles supérieures.}
-    \label{CS3}
-\end{figure}
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/CS4.jpeg}
-    \caption{Répartition des professions intermédiaires. }
-    \label{CS4}
-\end{figure}
+![](Cartes/residusF.jpeg)
 
+![](Cartes/residusH.jpeg)
 
-% CARTES classes
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/aises.jpeg}
-    \caption{Répartition des classes aisées.}
-    \label{aises}
-\end{figure}
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/interm.jpeg}
-    \caption{Répartition des classes intermédiaires.}
-    \label{interm}
-\end{figure}
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/populaire.jpeg}
-    \caption{Répartition des classes populaires.}
-    \label{popu}
-\end{figure}
+![](Cartes/residusL.jpeg)
 
-% LES AGES
+![](Cartes/residusMA.jpeg)
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/18_24.jpeg}
-    \caption{Répartition de la classe d'âge 18-24 ans.}
-    \label{1824}
-\end{figure}
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/25_39.jpeg}
-    \caption{Répartition de la classe d'âge 25-39 ans.}
-    \label{2539}
-\end{figure}
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/40_54.jpeg}
-    \caption{Répartition de la classe d'âge 40-54 ans.}
-    \label{4054}
-\end{figure}
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/55_64.jpeg}
-    \caption{Répartition de la classe d'âge 55-64 ans.}
-    \label{5564}
-\end{figure}
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.45]{Cartes/65_80.jpeg}
-    \caption{Répartition de la classe d'âge 65 ans et +.}
-    \label{vieux}
-\end{figure}
+![](Cartes/residusME.jpeg)
+
+![](Cartes/residuspetits.jpeg)
+
+![](Cartes/CS3.jpeg)
+
+![](Cartes/CS4.jpeg)
+
+![](Cartes/aises.jpeg)
+
+![](Cartes/interm.jpeg)
+
+![](Cartes/populaire.jpeg)
+
+![](Cartes/18_24.jpeg)
+
+![](Cartes/25_39.jpeg)
+
+![](Cartes/40_54.jpeg)
+
+![](Cartes/55_64.jpeg)
+
+![](Cartes/65_80.jpeg)
 
