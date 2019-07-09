@@ -62,12 +62,7 @@ Enfin il incombe de s'intéresser à la **gentrification** de Paris, pour bien a
 Selon Clerval A. (Clerval A., 2013), la gentrification est le processus par lequel l'espace urbain se modifie afin de correspondre aux rapports sociaux actuels. Elle la définit comme la dépossession des classes populaires par les « franges supérieures des nouvelles classes moyennes de la société post-industrielle ». De manière  simplifiée, ces nouvelles classes moyennes pratiquant le dépeuplement des classes populaires sont des personnes qui ne peuvent pas se payer les mêmes logements que la haute bourgeoisie, mais qui appartiennent à la petite bourgeoisie intellectuelle. Elles décident d'habiter à Paris dans des logements souvent neufs ou rénovés, alors que ces logements étaient auparavant habités par les classes populaires et leur sont devenus inaccessibles.
 
 ![](Cartes/gentrif_1_.jpg)
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale=0.4]{image/gentrif_1_.jpg}
-    \caption{Carte de l'évolution de la gentrification à Paris }
-    \label{gentrif}
-\end{figure}
+
 
 La gentrification s'installe inégalement à Paris, selon les arrondissements. Comme le montre la carte (voir Figure \ref{gentrif}), nous percevons l'accaparement des quartiers populaires par une population plus aisée. Paris connaît différentes phases de gentrification depuis les années 1960. Elles sont au nombre de quatre. La première phase se déroule entre les années 1960 et 1970, il s'agit de l'extension des beaux quartiers de l'Ouest vers les 1er, 9ème et 14ème arrondissements, ainsi qu'au sein des 5ème et 6ème arrondissements qui sont eux plus populaires. La seconde étape consiste en cette même extension mais à présent sur la rive gauche de la Seine durant les années 1980 avec les 13ème et 14ème arrondissements et une partie de la rive droite avec le 1er,2,3 et 4ème arrondissements. En 1990 un front de gentrification, se met en place en une ligne partant du 17ème arrondissements jusqu'au 12ème arrondissement. Durant les années 2000, cet axe gagne du terrain, et évolue jusqu'aux 18,19 et 20ème arrondissements, seulement il est assez faible pour les 18 et 19ème arrondissements puisque ce sont des quartiers à population étrangère importante. Un front de gentrification se base sur divers "avant-postes". Tous les quartiers et les lieux qui permettent de s'évader de la surdensité de Paris, autrement dit les parcs, les lieux de verdure et d'eau. Sa progression n'est pas toujours continue, comme l'indique la carte. (Clerval A., 2008; Adoumie 2013)
 
@@ -687,120 +682,6 @@ Les liens entre le comportement électoral et la répartition spatiale des class
 
 # Bibliographie
 
-\begin{appendix}
-\renewcommand\thefigure{\thesection.\arabic{figure}} 
-\renewcommand\thetable{\thesection.\arabic{table}} 
-\section{Annexes: Tableaux de corrélation}
-\setcounter{table}{0} 
-% Correlation
-% Le Pen 2
-\begin{table}[h]
-\footnotesize
-\begin{tabular}{llllll}
-term & estimate & std.error & statistic & p.value &  \\
-(Intercept) & -1.02 & 0.46 & -2.18 & 0.02 & * \\
-tour2\$CS2 & 0.02 & 0.05 & 0.54 & 0.58 &  \\
-tour2\$CS5 & 0.14 & 0.01 & 9.32 & 9.05e-20 & *** \\
-tour2\$CS7 & 0.21 & 0.01 & 14.64 & 1.35e-43 & *** \\
-tour2\$CS8 & 0.08 & 0.01 & 6.27 & 5.57e-10 & *** \\
-tour2\$distance & 0.0003 & 4.62 & 7.21 & 1.14e-12 & ***
-\end{tabular}
-\caption{Coefficients de régression de Marine Le Pen au second tour.}
-\label{tab:reg_2_lepen}
-\end{table}
-
-% Marcon 2
-
-\begin{table}[h]
-\footnotesize
-\begin{tabular}{llllll}
-term & estimate & std.error & statistic & p.value &  \\
-(Intercept) & 53.71 & 1.47 & 36.52 & 2.04e-178 & *** \\
-tour2\$CS2 & 0.35 & 0.11 & 3.06 & 0.00 & ** \\
-tour2\$CS3 & 0.44 & 0.01 & 26.30 & 5.66e-113 & *** \\
-tour2\$CS4 & 0.17 & 0.04 & 3.56 & 0.00 & *** \\
-tour2\$CS7 & -0.05 & 0.03 & -1.68 & 0.09 & . \\
-tour2\$distance & -0.001 & 9.18e-05 & -11.37 & 4.59e-28 & ***
-\end{tabular}
-\caption{Coefficients de régression d'Emmanuel Macron au second tour.}
-\label{tab:reg_2_M}
-\end{table}
-
-
-
-\begin{table}[]
-\scriptsize
-\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
-\hline
- & \multicolumn{1}{l|}{Arthaud} & \multicolumn{1}{l|}{Asselineau} & \multicolumn{1}{l|}{Cheminade} & \multicolumn{1}{l|}{D-A} & \multicolumn{1}{l|}{Fillon} & \multicolumn{1}{l|}{Hamon} & \multicolumn{1}{l|}{Lassalle} & \multicolumn{1}{l|}{Le Pen} & \multicolumn{1}{l|}{Macron} & \multicolumn{1}{l|}{Melenchon} & \multicolumn{1}{l|}{Poutou} \\ \hline
-distance & -0.02 & 0.06 & -0.01 & 0.22 & 0.27 & -0.34 & -0.08 & 0.27 & -0.57 & -0.1 & -0.07 \\ \hline
-CS1 & -0.28 & -0.3 & -0.13 & -0.2 & 0.48 & -0.39 & -0.13 & -0.22 & 0.03 & -0.45 & -0.32 \\ \hline
-CS2 & -0.41 & -0.41 & -0.22 & -0.44 & 0.62 & -0.51 & -0.21 & -0.4 & 0.05 & -0.56 & -0.47 \\ \hline
-CS3 & -0.4 & -0.42 & -0.14 & -0.26 & 0.3 & -0.04 & -0.05 & -0.62 & 0.73 & -0.47 & -0.38 \\ \hline
-CS4 & 0.33 & 0.26 & 0.12 & 0.21 & -0.68 & 0.69 & 0.16 & 0.14 & 0.18 & 0.59 & 0.43 \\ \hline
-CS5 & 0.48 & 0.48 & 0.19 & 0.31 & -0.54 & 0.27 & 0.08 & 0.65 & -0.55 & 0.64 & 0.5 \\ \hline
-CS6 & 0.45 & 0.44 & 0.15 & 0.1 & -0.61 & 0.41 & 0.01 & 0.42 & -0.43 & 0.71 & 0.49 \\ \hline
-CS7 & -0.03 & -0.02 & 0.03 & 0.25 & 0.27 & -0.32 & 0.1 & 0.23 & -0.24 & -0.26 & -0.1 \\ \hline
-CS8 & -0.12 & -0.04 & -0.07 & -0.16 & 0.39 & -0.45 & -0.15 & -0.01 & -0.39 & -0.22 & -0.17 \\ \hline
-18-24 ans & -0.11 & -0.03 & 0 & -0.12 & 0.14 & -0.13 & -0.06 & -0.18 & 0.09 & -0.15 & -0.1 \\ \hline
-25-39 ans & 0.08 & 0.05 & 0.03 & -0.08 & -0.47 & 0.56 & 0.01 & -0.21 & 0.47 & 0.33 & 0.19 \\ \hline
-40-54 ans & 0.2 & 0.18 & 0.04 & 0.06 & -0.18 & 0.06 & -0.01 & 0.3 & -0.39 & 0.31 & 0.2 \\ \hline
-55-64 ans & 0.07 & 0.08 & 0.01 & 0.14 & 0.21 & -0.33 & 0.03 & 0.31 & -0.44 & -0.09 & -0.02 \\ \hline
-65-79 ans & -0.15 & -0.15 & -0.06 & 0.05 & 0.49 & -0.51 & 0.03 & 0.09 & -0.24 & -0.44 & -0.25 \\ \hline
-80 ans & -0.23 & -0.22 & -0.06 & 0.08 & 0.53 & -0.48 & -0.02 & -0.01 & -0.16 & -0.49 & -0.31 \\ \hline
-\end{tabular}
-\caption{Corrélations entre les candidats et les variables introduites dans les régressions.}
-\label{tab:table_cor}
-\end{table}
-\begin{landscape}
-\begin{table}[]
-\scriptsize
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-              & Arthaud & Asselineau & Cheminade & Dupont-Aignan & Fillon & Hamon & Lassalle & Le Pen & Macron & Mélenchon & Poutou \\ \hline
-Arthaud       & 1       & 0.39       & 0.18      & 0.24          & -0.55  & 0.43  & 0.11     & 0.38   & -0.23  & 0.58      & 0.45   \\ \hline
-Asselineau    & 0.39    & 1          & 0.14      & 0.31          & -0.5   & 0.28  & 0.16     & 0.47   & -0.27  & 0.5       & 0.41   \\ \hline
-Cheminade     & 0.18    & 0.14       & 1         & 0.16          & -0.22  & 0.14  & 0.08     & 0.21   & -0.06  & 0.2       & 0.16   \\ \hline
-Dupont-Aignan & 0.24    & 0.31       & 0.16      & 1             & -0.25  & 0.08  & 0.2      & 0.57   & -0.19  & 0.18      & 0.21   \\ \hline
-Fillon        & -0.55   & -0.5       & -0.22     & -0.25         & 1      & -0.87 & -0.2     & -0.35  & -0.06  & -0.92     & -0.68  \\ \hline
-Hamon         & 0.43    & 0.28       & 0.14      & 0.08          & -0.87  & 1     & 0.15     & 0.05   & 0.21   & 0.8       & 0.56   \\ \hline
-Lassalle      & 0.11    & 0.16       & 0.08      & 0.2           & -0.2   & 0.15  & 1        & 0.2    & 0.03   & 0.15      & 0.14   \\ \hline
-Lepen         & 0.38    & 0.47       & 0.21      & 0.57          & -0.35  & 0.05  & 0.2      & 1      & -0.52  & 0.36      & 0.37   \\ \hline
-Macron        & -0.23   & -0.27      & -0.06     & -0.19         & -0.06  & 0.21  & 0.03     & -0.52  & 1      & -0.24     & -0.21  \\ \hline
-Mélenchon     & 0.58    & 0.5        & 0.2       & 0.18          & -0.92  & 0.8   & 0.15     & 0.36   & -0.24  & 1         & 0.71   \\ \hline
-Poutou        & 0.45    & 0.41       & 0.16      & 0.21          & -0.68  & 0.56  & 0.14     & 0.37   & -0.21  & 0.71      & 1      \\ \hline
-\end{tabular}
-\caption{Corrélations entre les différents candidats.}
-\label{tab:table_corcand}
-\end{table}
-
-
-\begin{table}[]
-\scriptsize
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
- & distance & CS1 & CS2 & CS3 & CS4 & CS5 & CS6 & CS7 & CS8 & 18-24 ans & 25-39 ans & 40-54 ans & 55-64 ans & 65-79 ans & 80 ans \\ \hline
-distance & 1 & 0.06 & -0.02 & -0.33 & -0.09 & 0.22 & 0.16 & 0.21 & 0.13 & -0.25 & -0.23 & 0.24 & 0.2 & 0.15 & 0.23 \\ \hline
-CS1 & 0.06 & 1 & 0.39 & 0.19 & -0.36 & -0.31 & -0.35 & 0.07 & 0.24 & 0.15 & -0.22 & -0.13 & 0.06 & 0.21 & 0.27 \\ \hline
-CS2 & -0.02 & 0.39 & 1 & 0.29 & -0.45 & -0.38 & -0.34 & -0.14 & 0.24 & 0.04 & -0.18 & 0.05 & 0.07 & 0.14 & 0.13 \\ \hline
-CS3 & -0.33 & 0.19 & 0.29 & 1 & 0.01 & -0.81 & -0.7 & -0.26 & -0.36 & 0.07 & 0.44 & -0.44 & -0.46 & -0.19 & -0.04 \\ \hline
-CS4 & -0.09 & -0.36 & -0.45 & 0.01 & 1 & 0.27 & 0.29 & -0.37 & -0.65 & -0.3 & 0.65 & 0.11 & -0.35 & -0.59 & -0.5 \\ \hline
-CS5 & 0.22 & -0.31 & -0.38 & -0.81 & 0.27 & 1 & 0.79 & -0.1 & -0.01 & -0.2 & -0.01 & 0.52 & 0.2 & -0.21 & -0.33 \\ \hline
-CS6 & 0.16 & -0.35 & -0.34 & -0.7 & 0.29 & 0.79 & 1 & -0.26 & 0 & -0.2 & 0.15 & 0.5 & 0.04 & -0.33 & -0.45 \\ \hline
-CS7 & 0.21 & 0.07 & -0.14 & -0.26 & -0.37 & -0.1 & -0.26 & 1 & 0.03 & -0.21 & -0.63 & -0.25 & 0.48 & 0.86 & 0.79 \\ \hline
-CS8 & 0.13 & 0.24 & 0.24 & -0.36 & -0.65 & -0.01 & 0 & 0.03 & 1 & 0.59 & -0.62 & 0.09 & 0.35 & 0.25 & 0.19 \\ \hline
-18-24 ans & -0.25 & 0.15 & 0.04 & 0.07 & -0.3 & -0.2 & -0.2 & -0.21 & 0.59 & 1 & -0.2 & -0.33 & -0.11 & -0.1 & -0.06 \\ \hline
-25-39 ans & -0.23 & -0.22 & -0.18 & 0.44 & 0.65 & -0.01 & 0.15 & -0.63 & -0.62 & -0.2 & 1 & -0.2 & -0.75 & -0.74 & -0.59 \\ \hline
-40-54 ans & 0.24 & -0.13 & 0.05 & -0.44 & 0.11 & 0.52 & 0.5 & -0.25 & 0.09 & -0.33 & -0.2 & 1 & 0.24 & -0.19 & -0.32 \\ \hline
-55-64 ans & 0.2 & 0.06 & 0.07 & -0.46 & -0.35 & 0.2 & 0.04 & 0.48 & 0.35 & -0.11 & -0.75 & 0.24 & 1 & 0.51 & 0.26 \\ \hline
-65-79 ans & 0.15 & 0.21 & 0.14 & -0.19 & -0.59 & -0.21 & -0.33 & 0.86 & 0.25 & -0.1 & -0.74 & -0.19 & 0.51 & 1 & 0.66 \\ \hline
-80 ans & 0.23 & 0.27 & 0.13 & -0.04 & -0.5 & -0.33 & -0.45 & 0.79 & 0.19 & -0.06 & -0.59 & -0.32 & 0.26 & 0.66 & 1 \\ \hline
-\end{tabular}
-\caption{Corrélations entre les différentes variables introduites dans les régressions (Multicolinéarité).}
-\label{tab:tablecorcs}
-\end{table}
-\end{landscape}
-\clearpage
 
 
 # Annexes : Histogrammes
