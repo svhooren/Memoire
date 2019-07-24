@@ -1,7 +1,7 @@
 <p align="center">
 	    <h1 align="center">Quels sont les liens entre le comportement électoral et la répartition spatiale des classes sociales à l’échelle intra-urbaine? <i>En particulier, peut-on observer des différences géographiques entre les quartiers dominés par les classes intermédiaires ? </i></h1>
-	    <img src="/Images/4dd947e7626edbfd31bb5461e93e55e2.jpg "align="center" />
-	    <p Mémoire de fin d'études présenté dans le cadre du Master en Sciences Géographiques à finalité Développement territorial align="center"></p>
+	    <img src="/Images/4dd947e7626edbfd31bb5461e93e55e2.jpg >
+	    <p align="center"> Mémoire de fin d'études présenté dans le cadre du Master en Sciences Géographiques à finalité Développement territorial </p>
 	    <br><br><br>
 	</p>
 
